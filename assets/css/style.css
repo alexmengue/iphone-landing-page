@@ -54,11 +54,12 @@ main section {
     align-items: center;
     justify-content: space-between;
     padding: 5rem 10rem;
+    gap: 15%;
 }
 
 .main-text img {
     width: 15rem;
-    margin-bottom: 3vh;   
+    margin-bottom: 3vh;
 }
 
 .main-text h3 {
@@ -157,4 +158,51 @@ main section {
     height: 100%;
     background: #445C42;
     clip-path: circle(800px at right 1000px);
+}
+
+@media (max-width: 500px) {
+    .circle {
+        top: 550px;
+        height: 480px;
+        padding-top: 10px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        height: 40px;
+    }
+
+    .navigation {
+        gap: 24px;
+        justify-content: space-around;
+    }
+
+    .navigation ul {
+        gap: 7px;
+        font-size: 10px;
+    }
+
+    .navigation .logo {
+        width: 24px;
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-img img {
+        width: 200px;
+        padding-top: 3rem;
+        position: absolute;
+        z-index: 1;
+        right: 30%;
+    }
+
+    .main-text .content span {
+        width: 30px;
+        height: 30px;
+    }
 }
