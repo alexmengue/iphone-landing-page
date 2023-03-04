@@ -206,3 +206,47 @@ main section {
         height: 30px;
     }
 }
+
+@media (max-width: 280px) {
+    main section {
+        padding: 5rem 8rem;
+        gap: 15%;
+    }
+
+    .navigation {
+        gap: 6px;
+    }
+
+    .navigation .logo {
+        width: 14px;
+    }
+
+    .navigation ul {
+        gap: 6px;
+        font-size: 8px;
+    }
+
+    .main-text img {
+        width: 15rem;
+        margin-bottom: 3vh;
+    }
+
+    .main-text h3 {
+        font-size: 32px;
+    }
+
+    .main-text .content span {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main-img img {
+        width: 120px;
+        right: 30%;
+    }
+
+    .circle {
+        top: 500px;
+        height: 350px;
+    }
+}
